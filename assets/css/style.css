@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet');
 
-
-/* Header styling */
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+body {
+
+    font-family: Raleway, sans-serif;
+    color: #2d3347;
+
+}
+
+/* Header logo styling */
 
 #logo {
 
@@ -16,15 +22,44 @@
 
 }
 
-nav {
+/* Navigation menu links */
+
+nav li {
 
     float: right;
-    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
     
-}
-
-body {
-
-    font-family: Raleway, sans-serif;
 
 }
+
+#menu {
+
+    font-size: 120%;
+    letter-spacing: 1px;
+    
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+
+    border-bottom: 2px solid #2d3347;
+
+}
+
+#logo, #menu {
+
+    line-height: 100px;
+
+}
+
+
+/* New Section */
+
