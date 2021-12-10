@@ -70,3 +70,23 @@ nav li {
     width: 100%;
 
 }
+
+#cover-text {
+
+    width: 500px;
+    height: 120px;
+    background-color: rgba(138, 116, 91, .9);
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #edeceb;
+}
+
+#cover-text h2 {
+
+    padding-bottom: 20px;
+
+}
