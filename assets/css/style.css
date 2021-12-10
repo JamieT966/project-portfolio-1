@@ -18,7 +18,7 @@ body {
 #logo {
 
     float: left;
-    height: 80%;
+    height: 75px;
 
 }
 
@@ -29,7 +29,6 @@ nav li {
     float: right;
     list-style: none;
     margin-right: 25px;
-    
 
 }
 
@@ -37,7 +36,6 @@ nav li {
 
     font-size: 120%;
     letter-spacing: 1px;
-    
 
 }
 
@@ -50,16 +48,25 @@ nav li {
 
 #menu a:hover {
 
-    border-bottom: 2px solid #2d3347;
+    border-bottom: 1px solid #2d3347;
 
 }
 
 #logo, #menu {
 
-    line-height: 100px;
+    line-height: 70px;
+    overflow: hidden;
+    padding: 10px;
 
 }
 
 
-/* New Section */
+/* Hero image styling */
 
+#hero {
+
+    background: url('../images/hero-image.png') no-repeat center center;
+    height: 500px;
+    width: 100%;
+
+}
