@@ -91,12 +91,12 @@ nav li {
 
 }
 
-/* About us section */
+/* About us images */
 
 #about-us {
 
     text-align: center;
-    margin: 35px;
+    margin-bottom: 30px;
     font-size: 200%;
 
 }
@@ -104,19 +104,18 @@ nav li {
 #about-us-container {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
 #left-about {
 
     order: 2;
-
 }
 
 #vetted {
 
-    height: 100%;
+    height: 80%;
     border-radius: 50%;
     border: 2px solid #3a3a3a;
 
@@ -130,7 +129,7 @@ nav li {
 
 #ecce {
 
-        height: 100%;
+        height: 80%;
         border-radius: 50%;
         border: 2px solid #3a3a3a;
 
@@ -144,8 +143,36 @@ nav li {
 
 #years {
 
-    height: 100%;
+    height: 80%;
     border-radius: 50%;
     border: 2px solid #3a3a3a;
+
+}
+
+/* About us desciptions */
+
+#about-us-desc {
+
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+
+}
+
+#left-about-desc {
+
+    flex-basis: 240px;
+
+}
+
+#center-about-desc {
+
+    flex-basis: 240px;
+
+}
+
+#right-about-desc {
+
+    flex-basis: 240px;
 
 }
