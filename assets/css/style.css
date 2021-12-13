@@ -112,12 +112,15 @@ nav li {
 #flex-parent {
 
     display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .flex-child {
 
     width: 33%;
     text-align: center;
+
 }
 
 .ab-img {
@@ -125,10 +128,10 @@ nav li {
     height: 70%;
     border-radius: 50%;
     border: 2px solid #3a3a3a;
-
+    
 }
 
-.ab-desc {
+.ab-desc h3 {
 
     margin-top: 10px;
 
@@ -137,6 +140,6 @@ nav li {
 .ab-desc p {
 
     margin-top: 10px;
-    color: red;
+    font-family: Open sans, sans-serif;
     
 }
