@@ -9,7 +9,7 @@
 body {
 
     font-family: Raleway, sans-serif;
-    color: #2d3347;
+    color: #3a3a3a;
 
 }
 
@@ -48,7 +48,7 @@ nav li {
 
 #menu a:hover {
 
-    border-bottom: 1px solid #2d3347;
+    border-bottom: 1px solid #3a3a3a;
 
 }
 
@@ -88,5 +88,64 @@ nav li {
 #cover-text h2 {
 
     padding-bottom: 20px;
+
+}
+
+/* About us section */
+
+#about-us {
+
+    text-align: center;
+    margin: 35px;
+    font-size: 200%;
+
+}
+
+#about-us-container {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#left-about {
+
+    order: 2;
+
+}
+
+#vetted {
+
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
+
+}
+
+#center-about {
+
+    order: 3;
+
+}
+
+#ecce {
+
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid #3a3a3a;
+
+}
+
+#right-about {
+
+    order: 1;
+
+}
+
+#years {
+
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
 
 }
