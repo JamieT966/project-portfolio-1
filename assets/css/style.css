@@ -175,5 +175,13 @@ nav li {
     text-align: center;
     padding: 20px;
     font-size: 110%;
+    border: 2px solid #3a3a3a;
+    margin: 10px;
+    border-radius: 25px;
 
+}
+
+.fas {
+
+    color: #3a3a3a;
 }
