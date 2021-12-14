@@ -38,21 +38,15 @@ nav li {
 
 }
 
-#menu {
-
+#menu a {
     font-size: 120%;
+    text-decoration: none;
+    color: inherit;
     letter-spacing: 1px;
 
 }
 
-#menu a {
-
-    text-decoration: none;
-    color: inherit;
-
-}
-
-#menu a:hover {
+a:hover {
 
     border-bottom: 1px solid #3a3a3a;
 
@@ -107,7 +101,7 @@ header {
 #about-us {
 
     text-align: center;
-    margin: 40px;
+    margin: 50px;
     font-size: 160%;
 
 }
@@ -117,6 +111,7 @@ header {
 #flex-parent-ab {
 
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     
 }
@@ -147,6 +142,7 @@ header {
 
     margin-top: 10px;
     font-family: Open sans, sans-serif;
+    padding-bottom: 20px;
     
 }
 
@@ -155,7 +151,7 @@ header {
 #curriculum {
 
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     font-size: 160%;
 
 }
@@ -169,6 +165,7 @@ header {
 .flex-parent-cu {
 
     display: flex;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 40px;
@@ -206,17 +203,23 @@ header {
 
 footer {
 
-    height: 100px;
     background-color: #f8f8f8;
-    border-top: 2px solid #3a3a3a;
 
 }
 
 #footer-container {
 
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.footer-rows {
+
+    width: 30%;
+    text-align: center;
 
 }
 
@@ -229,8 +232,8 @@ footer {
 
 }
 
-li {
+.social {
 
-    background-color: red;
+    font-size: 160%;
 
 }
