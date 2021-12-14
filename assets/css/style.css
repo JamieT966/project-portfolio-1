@@ -103,20 +103,20 @@ nav li {
 
     text-align: center;
     margin: 40px;
-    font-size: 200%;
+    font-size: 160%;
 
 }
 
 /* About us flex, images and desciptions */
 
-#flex-parent {
+#flex-parent-ab {
 
     display: flex;
     justify-content: space-evenly;
     
 }
 
-.flex-child {
+.flex-child-ab {
 
     width: 33%;
     text-align: center;
@@ -142,4 +142,14 @@ nav li {
     margin-top: 10px;
     font-family: Open sans, sans-serif;
     
+}
+
+/* Curriculum section */
+
+.flex-parent-cu {
+
+    display: inline-flex;
+    flex-direction: column;
+    flex-basis: 40%;
+
 }
