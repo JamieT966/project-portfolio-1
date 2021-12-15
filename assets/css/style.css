@@ -129,7 +129,7 @@ header {
     border-radius: 50%;
     border: 2px solid #3a3a3a;
     margin-bottom: 10px;
-    
+
 }
 
 .ab-desc h3 {
@@ -210,16 +210,18 @@ footer {
 #footer-container {
 
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 40px;
+
 }
 
 .footer-rows {
 
-    width: 30%;
     text-align: center;
+    flex-basis: 20%;
+    display: flex;
 
 }
 
@@ -228,12 +230,13 @@ footer {
     list-style-type: none;
     margin-bottom: 25px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.social {
+.footer-rows .fab {
 
-    font-size: 160%;
+    font-size: 150%;
 
 }
