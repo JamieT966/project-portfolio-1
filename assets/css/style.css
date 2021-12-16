@@ -24,7 +24,7 @@ p {
 #logo {
 
     float: left;
-    height: 75px;
+    height: 65px;
 
 }
 
@@ -54,9 +54,9 @@ a:hover {
 
 #logo, #menu {
 
-    line-height: 70px;
+    line-height: 55px;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px 0 10px 10px;
 
 }
 
@@ -135,7 +135,7 @@ header {
 .ab-desc h3 {
 
     margin-top: 10px;
-
+    
 }
 
 .ab-desc p {
@@ -278,5 +278,6 @@ footer {
 #address h3 {
 
     margin-bottom: 2px;
+    color: #3a3a3a;
 
 }
