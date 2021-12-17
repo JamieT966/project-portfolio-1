@@ -22,6 +22,9 @@ p {
 h2 {
 
     color: #B5772F;
+    text-align: center;
+    font-size: 160%;
+    letter-spacing: .5px;
 
 }
 
@@ -54,7 +57,7 @@ nav li {
 
 a:hover {
 
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #B5772F;
 
 }
 
@@ -94,6 +97,7 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #edeceb;
+
 }
 
 #cover-text h2 {
@@ -107,9 +111,7 @@ header {
 
 #about-us {
 
-    text-align: center;
     margin: 50px;
-    font-size: 160%;
 
 }
 
@@ -239,18 +241,13 @@ footer {
 #footer-nav a {
 
     color: #3a3a3a;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
     padding: 5px;
     letter-spacing: 2px;
     line-height: 25px;
 
-
-}
-
-#footer-nav a:hover {
-
-    border-bottom: 1px solid #3a3a3a;
 
 }
 
@@ -287,13 +284,41 @@ footer {
 
     margin-bottom: 2px;
     color: #3a3a3a;
+    font-weight: bold;
 
 }
 
 /* Gallery section */
 
-#gallery-container {
+#gallery-heading {
+
+    padding: 20px;
+
+}
+
+.gallery-container {
 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+    padding: 20px 0;
+    background-color: #fff;
+
+}
+
+.gallery-container img {
+
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+
+}
+
+.gallery-container img:hover {
+
+    opacity: .7;
+    transition: 0.8s;
 
 }
