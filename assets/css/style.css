@@ -34,9 +34,8 @@ h2 {
 
     float: left;
     height: 75px;
-    padding: 0 0 40px 5px;
-
-
+    padding: 10px 0 0 20px;
+    
 }
 
 /* Navigation menu links */
@@ -65,7 +64,7 @@ a:hover {
 
 #logo, #menu {
 
-    line-height: 60px;
+    line-height: 90px;
     overflow: hidden;
 
 }
@@ -73,7 +72,7 @@ a:hover {
 header {
 
     background-color: #f8f8f8;
-    padding: 18px;
+    
 }
 /* Hero image styling */
 
