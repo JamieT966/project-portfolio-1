@@ -198,6 +198,8 @@ header {
     color: #3a3a3a;
 }
 
+/* Map Section */
+
 #map {
 
     width: 100%;
@@ -285,5 +287,13 @@ footer {
 
     margin-bottom: 2px;
     color: #3a3a3a;
+
+}
+
+/* Gallery section */
+
+#gallery-container {
+
+    display: flex;
 
 }
