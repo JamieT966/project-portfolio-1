@@ -30,9 +30,58 @@
     </nav>
 </header>
 
+<section id="contact-container">    
 
-<section>
-Contact Us Form
+    <div class="left-side-contact">
+        <h2 id="contact-h2">Get in touch!</h2>
+        <p><i class="fas fa-map-marker-alt"> Chapel Road, Kinsealy, Malahide, Co.Dublin, K36 VP76.</i></p>
+        <p><i class="fas fa-envelope"></i> rachel@cheekymonkeys.ie</p>
+        <p><i class="fas fa-phone-alt"></i> 087 123 4567</p>
+    </div>
+
+    <div class="right-side-contact">
+        <form class="contact-form" action="#" method="POST">
+            <h2 id="form-heading">Contact Us <i class="fas fa-keyboard"></i></h2>
+
+            <div class="form-box">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="f_name" class="text-field" required>
+            </div>
+
+            <div class="form-box">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="l_name" class="text-field" required>
+            </div>
+
+            <div class="form-box">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="text-field" required>
+            </div>
+
+            <div class="form-box">
+                <p>Age of Child:</p>
+            </div>
+
+            <div class="radio-box">
+                
+                <label for="four">4</label>
+                <input type="radio" id="four" name="child-age" class="radio-field" required>
+
+                <label for="three">3</label>
+                <input type="radio" id="three" name="child-age" class="radio-field" required>
+                
+                <label for="two">2</label>
+                <input type="radio" id="two" name="child-age" class="radio-field" required>
+                
+            </div>
+
+            <div class="form-box">
+                <input type="submit" class="submit-button" value="Submit">
+            </div>
+
+        </form>
+    </div>
+
 </section>
 
 
