@@ -325,7 +325,7 @@ footer {
 
 #contact-h2 {
     color: #f8f8f8;
-    margin-top: 52px;
+    margin-top: 77px;
     padding-bottom: 50px;
 }
 
@@ -333,7 +333,6 @@ footer {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 
 }
 
@@ -346,7 +345,6 @@ footer {
 
 .right-side-contact {
 
-    background-color: #463ab8;
     flex-basis: 60%;
     height: 600px;
 }
@@ -358,10 +356,14 @@ footer {
 .contact-form {
     display: block;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     font-size: 120%;
     border: 2px solid red;
-    margin: 50px;
+    width: 500px;
+    margin: 55px auto;
+    padding: 20px;
+    background-color: rgb(142, 85, 150);
+    
 }
 
 .form-box {
@@ -371,18 +373,36 @@ footer {
 }
 
 .radio-box {
-    margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-left: 20px;
 }
 
 .text-field {
-    width: 200px;
-    margin: 0 auto;
+    width: 480px;
+    margin: 10px auto;
+    padding: 5px;
+
 }
 
 .submit-button {
-    width: 200px;
+    width: 150px;
     margin: 0 auto;
+}
+
+#button-four {
+    padding: 0 10px 0 10px;
+}
+
+#button-three {
+    padding: 0 10px 0 10px;
+}
+
+#button-two {
+    padding: 0 10px 0 10px;
+}
+
+.submit-button {
+    padding-top: 15px;
 }
