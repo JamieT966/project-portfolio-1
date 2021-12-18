@@ -8,7 +8,7 @@
 
 body {
 
-    font-family: Raleway, sans-serif;
+    font-family: Open Sans, sans-serif;
     color: #3a3a3a;
 
 }
@@ -22,6 +22,7 @@ p {
 h2 {
 
     color: #B5772F;
+    font-family: Raleway, sans-serif;
     text-align: center;
     font-size: 160%;
     letter-spacing: .5px;
@@ -239,7 +240,6 @@ footer {
 #footer-nav a {
 
     color: #3a3a3a;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
     padding: 5px;
@@ -282,7 +282,6 @@ footer {
 
     margin-bottom: 2px;
     color: #3a3a3a;
-    font-weight: bold;
 
 }
 
@@ -325,7 +324,7 @@ footer {
 
 #contact-h2 {
     color: #f8f8f8;
-    margin-top: 77px;
+    margin-top: 47px;
     padding-bottom: 50px;
 }
 
@@ -358,11 +357,11 @@ footer {
     flex-direction: column;
     text-align: left;
     font-size: 120%;
-    border: 2px solid red;
+    border: 2px solid #B5772F;
     width: 500px;
-    margin: 55px auto;
+    margin: 25px auto;
     padding: 20px;
-    background-color: rgb(142, 85, 150);
+    background-color: #f8f8f8;
     
 }
 
@@ -370,6 +369,7 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .radio-box {
@@ -383,6 +383,7 @@ footer {
     width: 480px;
     margin: 10px auto;
     padding: 5px;
+    border: 1px solid #3a3a3a;
 
 }
 
@@ -405,4 +406,30 @@ footer {
 
 .submit-button {
     padding-top: 15px;
+}
+
+.contact-form .fas {
+    color: #B5772F;
+}
+
+#form-submit {
+    justify-content: flex-start;
+}
+
+#submit-button {
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 100%;
+    color: #f8f8f8;
+    background-color: #B5772F;
+    border: 2px solid #f8f8f8;
+    box-shadow: 1px 1px;
+}
+
+#submit-button:hover {
+    color: #B5772F;
+    background-color: #f8f8f8;
+    border: 2px solid #B5772F;
+    box-shadow: 1px 1px;
 }
