@@ -484,10 +484,23 @@ header {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
+   
 }
 
 nav {
     margin: 0 auto;
+    font-size: 90%;
+}
+
+#logo {
+    height: 60px;
+    padding-bottom: 2px;
+}
+
+#logo, #menu {
+
+    line-height: 35px;
+
 }
 
 header a {
