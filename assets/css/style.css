@@ -449,6 +449,16 @@ footer {
 
 @media only screen and (max-width: 1275px) {
 
+/* Footer responsive design */
+
+#footer-nav, #socials {
+    padding: 20px 0;
+}
+
+#address {
+    display: none;
+}
+
 /* Contact us responsive design */
 
 #contact-container {
