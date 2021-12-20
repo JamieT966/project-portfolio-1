@@ -10,6 +10,7 @@ body {
 
     font-family: Open Sans, sans-serif;
     color: #3a3a3a;
+    overflow-x: hidden;
 
 }
 
@@ -542,7 +543,7 @@ header a {
 
 #cover-text {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 200px;
     margin-top: 120px;
     padding: 10px 0;
@@ -560,9 +561,10 @@ header a {
 /* Reasons to love Cheeky Monkeys */
 
 .flex-child-ab {
-    width: 90%;
+    width: auto;
     align-items: center;
     padding: 20px;
 }
+
 
 }
