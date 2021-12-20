@@ -24,7 +24,7 @@ h2 {
     color: #B5772F;
     font-family: Raleway, sans-serif;
     text-align: center;
-    font-size: 160%;
+    font-size: 180%;
     letter-spacing: .5px;
 
 }
@@ -57,7 +57,7 @@ nav li {
 
 }
 
-a:hover {
+#menu a:hover {
 
     border-bottom: 1px solid #B5772F;
 
@@ -103,6 +103,7 @@ header {
 #cover-text h2 {
 
     padding-bottom: 20px;
+    font-size: 160%;
     color: #edeceb;
 
 }
@@ -214,7 +215,6 @@ header {
 footer {
 
     background-color: #f8f8f8;
-    border-top: 2px solid #3a3a3a;
 
 }
 
@@ -331,20 +331,28 @@ footer {
 #contact-container {
 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 
+}
+
+.left-side-contact .fas {
+    color: #f8f8f8;
 }
 
 .left-side-contact {
 
     background-color: #B5772F;
-    flex-basis: 40%;
+    flex-basis: 38%;
     height: 600px;
+    color: #f8f8f8;
+    font-size: 115%;
+    line-height: 50px;
+    padding-left: 50px;
 }
 
 .right-side-contact {
-
-    flex-basis: 60%;
+    flex-basis: 58%;
     height: 600px;
 }
 
@@ -353,8 +361,10 @@ footer {
 }
 
 .contact-form {
-    display: block;
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: left;
     font-size: 120%;
     border: 2px solid #B5772F;
@@ -432,4 +442,56 @@ footer {
     background-color: #f8f8f8;
     border: 2px solid #B5772F;
     box-shadow: 1px 1px;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1275px) {
+
+#contact-container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-side-contact {
+
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#contact-h2 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.right-side-contact {
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+header {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+header a {
+    margin: 0 auto;
+}
+
 }
