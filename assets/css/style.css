@@ -305,15 +305,6 @@ footer {
 
 }
 
-.gallery-container img {
-
-    width: 400px;
-    object-fit: cover;
-    object-position: center;
-    height: 300px;
-
-}
-
 .gallery-container img:hover {
 
     opacity: .7;
@@ -369,6 +360,7 @@ footer {
     text-align: left;
     font-size: 120%;
     border: 2px solid #B5772F;
+    border-radius: 10px;
     width: 500px;
     margin: 25px auto;
     padding: 20px;
@@ -576,5 +568,21 @@ header a {
     padding: 20px;
 }
 
+.left-side-contact {
+    max-width: fit-content;
+}
+
+.right-side-contact {
+    max-width: fit-content;
+}
+
+.contact-form {
+    max-width: fit-content;
+    align-content: center;
+}
+
+.text-field {
+    max-width: fit-content;
+}
 
 }
