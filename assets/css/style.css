@@ -305,6 +305,12 @@ footer {
 
 }
 
+.gallery-container img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .gallery-container img:hover {
 
     opacity: .7;
@@ -574,11 +580,12 @@ header a {
 
 .right-side-contact {
     max-width: fit-content;
+    align-self: center;
+    justify-content: center;
 }
 
 .contact-form {
     max-width: fit-content;
-    align-content: center;
 }
 
 .text-field {
