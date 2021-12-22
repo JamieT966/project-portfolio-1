@@ -485,12 +485,14 @@ footer {
 
 #confused-flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 #confused {
-    margin: 100px auto;
+    margin: 75px auto;
+    height: 250px;
 }
 
 #return-home {
