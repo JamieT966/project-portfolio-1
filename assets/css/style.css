@@ -1,723 +1,521 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet');
-
-:root {
-    --off_white: #f8f8f8;
-    --cm_orange: #B5772F;
-    --text_color: #3a3a3a;
+ :root {
+     --off_white: #f8f8f8;
+     --cm_orange: #B5772F;
+     --text_color: #3a3a3a;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
+ * {
+     margin: 0;
+     padding: 0;
+     border: none;
 }
-
-html {
-    min-height: 1rem;
-    position: relative;
-    background-color: var(--off_white);
+ html {
+     min-height: 1rem;
+     position: relative;
+     background-color: var(--off_white);
 }
-
-body {
-
-    font-family: "Open Sans", sans-serif;
-    color: var(--text_color);
-    overflow-x: hidden;
-    max-width: 2200px;
-    margin-right: auto;
-    margin-left: auto;
+ body {
+     font-family: "Open Sans", sans-serif;
+     color: var(--text_color);
+     overflow-x: hidden;
+     max-width: 2200px;
+     margin-right: auto;
+     margin-left: auto;
 }
-
-h2 {
-
-    color: var(--cm_orange);
-    font-family: Raleway, sans-serif;
-    text-align: center;
-    font-size: 1.8rem;
-    letter-spacing: .5px;
-
+ h2 {
+     color: var(--cm_orange);
+     font-family: Raleway, sans-serif;
+     text-align: center;
+     font-size: 1.8rem;
+     letter-spacing: .5px;
 }
-
 /* Header logo styling */
-
-#logo {
-
-    float: left;
-    height: 75px;
-    padding: 10px 0 0 20px;
-    
+ #logo {
+     float: left;
+     height: 75px;
+     padding: 10px 0 0 20px;
 }
-
 /* Navigation menu links */
-
-nav li {
-
-    float: right;
-    list-style: none;
-    margin-right: 25px;
-
+ nav li {
+     float: right;
+     list-style: none;
+     margin-right: 25px;
 }
-
-#menu {
-    padding-right: 10px;
+ #menu {
+     padding-right: 10px;
 }
-
-#menu a {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: inherit;
-    letter-spacing: 1px;
+ #menu a {
+     font-size: 1.2rem;
+     text-decoration: none;
+     color: inherit;
+     letter-spacing: 1px;
 }
-
-#menu a:hover {
-
-    border-bottom: 1px solid var(--cm_orange);
-
+ #menu a:hover {
+     border-bottom: 1px solid var(--cm_orange);
 }
-
-.active {
-    border-bottom: 1px solid var(--cm_orange);
+ .active {
+     border-bottom: 1px solid var(--cm_orange);
 }
-
-#logo, #menu {
-
-    line-height: 90px;
-    overflow: hidden;
-
+ #logo, #menu {
+     line-height: 90px;
+     overflow: hidden;
 }
-
-header {
-
-    background-color: var(--off_white);
-    
+ header {
+     background-color: var(--off_white);
 }
 /* Hero image styling */
-
-#hero-section {
-    position: relative;
+ #hero-section {
+     position: relative;
 }
-
-#hero {
-
-    background: url('../images/hero-image.png') no-repeat center center;
-    height: 500px;
-    width: 100%;
-
+ #hero {
+     background: url('../images/hero-image.png') no-repeat center center;
+     height: 500px;
+     width: 100%;
 }
-
-#cover-text {
-
-    width: 500px;
-    height: 120px;
-    background-color: rgba(181, 119, 47, .9);
-    padding: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: var(--off_white);
-
+ #cover-text {
+     width: 500px;
+     height: 120px;
+     background-color: rgba(181, 119, 47, .9);
+     padding: 5px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     color: var(--off_white);
 }
-
-#cover-text h2 {
-
-    padding-bottom: 20px;
-    font-size: 1.6rem;
-    color: var(--off_white);
-
+ #cover-text h2 {
+     padding-bottom: 20px;
+     font-size: 1.6rem;
+     color: var(--off_white);
 }
-
 /* About us heading */
-
-#about-us {
-
-    margin: 50px;
-
+ #about-us {
+     margin: 50px;
 }
-
 /* About us flex, images and desciptions */
-
-#flex-parent-ab {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+ #flex-parent-ab {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
 }
-
-.flex-child-ab {
-
-    width: 33%;
-    text-align: center;
-
+ .flex-child-ab {
+     width: 33%;
+     text-align: center;
 }
-
-.ab-img {
-
-    height: 50%;
-    border-radius: 50%;
-    animation: ab-animation 1s;
-    margin-bottom: 10px;
-
+ .ab-img {
+     height: 50%;
+     border-radius: 50%;
+     animation: ab-animation 1s;
+     margin-bottom: 10px;
 }
-
-@keyframes ab-animation {
-    from {
-        transform: scale(0);
+ @keyframes ab-animation {
+     from {
+         transform: scale(0);
     }
-    to {
-        transform: scale(1);
+     to {
+         transform: scale(1);
     }
 }
-
-.ab-desc h3 {
-
-    margin-top: 10px;
-    
+ .ab-desc h3 {
+     margin-top: 10px;
 }
-
-.ab-desc p {
-
-    margin-top: 10px;
-    padding-bottom: 20px;
-    
+ .ab-desc p {
+     margin-top: 10px;
+     padding-bottom: 20px;
 }
-
 /* Curriculum section */
-
-#curriculum {
-
-    text-align: center;
-    padding: 30px;
-    font-size: 1.6rem;
-
+ #curriculum {
+     text-align: center;
+     padding: 30px;
+     font-size: 1.6rem;
 }
-
-.off-white-bg {
-
-    background-color: var(--off_white); 
-
+ .off-white-bg {
+     background-color: var(--off_white);
 }
-
-.flex-parent-cu {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
-
+ .flex-parent-cu {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     padding-bottom: 40px;
 }
-
-.flex-child-cu {
-
-    width: 40%;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.1rem;
-    border: 2px solid var(--text_color);
-    margin: 10px;
-    border-radius: 25px;
-    background-color: #fff;
+ .flex-child-cu {
+     width: 40%;
+     text-align: center;
+     padding: 20px;
+     font-size: 1.1rem;
+     border: 2px solid var(--text_color);
+     margin: 10px;
+     border-radius: 25px;
+     background-color: #fff;
 }
-
 /* Font Awesome icon styling .fas and .fab below */
-
-.fas, .fab{
-
-    color: var(--text_color);
+ .fas, .fab{
+     color: var(--text_color);
 }
-
 /* Map Section */
-
-#map {
-
-    width: 100%;
-    height: 300px;
-    outline: 2px solid var(--text_color);
-    margin-bottom: 50px;
-
+ #map {
+     width: 100%;
+     height: 300px;
+     outline: 2px solid var(--text_color);
+     margin-bottom: 50px;
 }
-
 /* Footer styling */
-
-footer {
-
-    background-color: var(--off_white);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    max-width: 2200px;
-    height: 50px;
-
+ footer {
+     background-color: var(--off_white);
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     max-width: 2200px;
+     height: 50px;
 }
-
-#f-container {
-
-    display: flex;
-    flex-basis: 33%;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding-top: 5px;
-    border: 0;
+ #f-container {
+     display: flex;
+     flex-basis: 33%;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0;
+     padding-top: 5px;
+     border: 0;
 }
-
-#footer-nav{
-
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-
+ #footer-nav{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
 }
-
-#footer-nav a {
-
-    color: var(--text_color);
-    text-align: center;
-    text-decoration: none;
-    padding: 5px;
-    letter-spacing: 2px;
-    line-height: 25px;
-
-
+ #footer-nav a {
+     color: var(--text_color);
+     text-align: center;
+     text-decoration: none;
+     padding: 5px;
+     letter-spacing: 2px;
+     line-height: 25px;
 }
-
-#copyright {
-
-    text-align: center;
-    font-size: 0.8rem;
-    margin: 0 auto;
-
+ #copyright {
+     text-align: center;
+     font-size: 0.8rem;
+     margin: 0 auto;
 }
-
-#socials {
-
-    text-align: center;
-    font-size: 0.8rem;
-    letter-spacing: 10px;
-    font-size: 1.6rem;
-    color: var(--text_color);
-
+ #socials {
+     text-align: center;
+     font-size: 0.8rem;
+     letter-spacing: 10px;
+     font-size: 1.6rem;
+     color: var(--text_color);
 }
-
-#address {
-
-    display: flex;
-    padding-top: 5px;
-    flex-direction: column;
-    font-size: 0.8rem;
-    align-items: flex-start;
-    align-self: flex-end;
-
+ #address {
+     display: flex;
+     padding-top: 5px;
+     flex-direction: column;
+     font-size: 0.8rem;
+     align-items: flex-start;
+     align-self: flex-end;
 }
-
-#address h3 {
-
-    margin-bottom: 2px;
-    color: var(--text_color);
-
+ #address h3 {
+     margin-bottom: 2px;
+     color: var(--text_color);
 }
-
 /* Gallery section */
-
-#gallery-heading {
-
-    padding: 20px;
-
+ #gallery-heading {
+     padding: 20px;
 }
-
-.gallery-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px 20px;
-    padding: 20px 0;
-    background-color: var(--off_white);
-    margin-bottom: 50px;
-
+ .gallery-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px 20px;
+     padding: 20px 0;
+     background-color: var(--off_white);
+     margin-bottom: 50px;
 }
-
-.gallery-container img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
+ .gallery-container img {
+     width: 400px;
+     height: 300px;
+     object-fit: cover;
 }
-
-.gallery-container img:hover {
-
-    opacity: .7;
-    transition: 0.8s;
-
+ .gallery-container img:hover {
+     opacity: .7;
+     transition: 0.8s;
 }
-
 /* Contact Form */
-
-#contact-h2 {
-    color: var(--off_white);
-    margin-top: 47px;
-    padding-bottom: 50px;
+ #contact-h2 {
+     color: var(--off_white);
+     margin-top: 47px;
+     padding-bottom: 50px;
 }
-
-#contact-container {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-
+ #contact-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-bottom: 50px;
 }
-
-.left-side-contact .fas {
-    color: var(--off_white);
+ .left-side-contact .fas {
+     color: var(--off_white);
 }
-
-.left-side-contact {
-
-    background-color: var(--cm_orange);
-    flex-basis: 38%;
-    height: 600px;
-    color: var(--off_white);
-    font-size: 1.15rem;
-    line-height: 50px;
-    padding-left: 50px;
+ .left-side-contact {
+     background-color: var(--cm_orange);
+     flex-basis: 38%;
+     height: 600px;
+     color: var(--off_white);
+     font-size: 1.15rem;
+     line-height: 50px;
+     padding-left: 50px;
 }
-
-.right-side-contact {
-    flex-basis: 58%;
-    height: 600px;
+ .right-side-contact {
+     flex-basis: 58%;
+     height: 600px;
 }
-
-#form-heading {
-    padding-bottom: 50px;
+ #form-heading {
+     padding-bottom: 50px;
 }
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: left;
-    font-size: 1.2rem;
-    border: 2px solid var(--cm_orange);
-    border-radius: 10px;
-    width: 500px;
-    margin: 25px auto;
-    padding: 20px;
-    background-color: var(--off_white);
-    
+ .contact-form {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: left;
+     font-size: 1.2rem;
+     border: 2px solid var(--cm_orange);
+     border-radius: 10px;
+     width: 500px;
+     margin: 25px auto;
+     padding: 20px;
+     background-color: var(--off_white);
 }
-
-.form-box {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+ .form-box {
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
 }
-
-.radio-box {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    padding-left: 20px;
+ .radio-box {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: flex-end;
+     padding-left: 20px;
 }
-
-.text-field {
-    width: 480px;
-    margin: 10px auto;
-    padding: 5px;
-    border: 1px solid var(--text_color);
-
+ .text-field {
+     width: 480px;
+     margin: 10px auto;
+     padding: 5px;
+     border: 1px solid var(--text_color);
 }
-
-.submit-button {
-    width: 150px;
-    margin: 0 auto;
+ .submit-button {
+     width: 150px;
+     margin: 0 auto;
 }
-
-#button-four {
-    padding: 0 10px 0 10px;
+ #button-four {
+     padding: 0 10px 0 10px;
 }
-
-#button-three {
-    padding: 0 10px 0 10px;
+ #button-three {
+     padding: 0 10px 0 10px;
 }
-
-#button-two {
-    padding: 0 10px 0 10px;
+ #button-two {
+     padding: 0 10px 0 10px;
 }
-
-.submit-button {
-    padding-top: 15px;
+ .submit-button {
+     padding-top: 15px;
 }
-
-.contact-form .fas {
-    color: var(--cm_orange);
+ .contact-form .fas {
+     color: var(--cm_orange);
 }
-
-#form-submit {
-    justify-content: flex-start;
+ #form-submit {
+     justify-content: flex-start;
 }
-
-#submit-button {
-    height: 40px;
-    width: 100px;
-    margin-top: 10px;
-    font-size: 1rem;
-    color: var(--off_white);
-    background-color: var(--cm_orange);
-    border: 2px solid var(--off_white);
-    box-shadow: 1px 1px;
+ #submit-button {
+     height: 40px;
+     width: 100px;
+     margin-top: 10px;
+     font-size: 1rem;
+     color: var(--off_white);
+     background-color: var(--cm_orange);
+     border: 2px solid var(--off_white);
+     box-shadow: 1px 1px;
 }
-
-#submit-button:hover {
-    color: var(--cm_orange);
-    background-color: var(--off_white);
-    border: 2px solid var(--cm_orange);
-    box-shadow: 1px 1px;
+ #submit-button:hover {
+     color: var(--cm_orange);
+     background-color: var(--off_white);
+     border: 2px solid var(--cm_orange);
+     box-shadow: 1px 1px;
 }
-
 /* 404 Page */
-
-#confused-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 50px auto;
-    width: 90%;
-    max-width: 1800px;
+ #confused-flex {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 50px auto;
+     width: 90%;
+     max-width: 1800px;
 }
-
-#confused {
-    margin: 75px auto;
-    height: 250px;
+ #confused {
+     margin: 75px auto;
+     height: 250px;
 }
-
-#return-home {
-    text-align: center;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: var(--text_color);
+ #return-home {
+     text-align: center;
+     font-size: 1.2rem;
+     text-decoration: none;
+     color: var(--text_color);
 }
-
 /*Media Queries*/
-
-@media only screen and (max-width: 1275px) {
-
-/* Footer responsive design */
-
-#footer-nav, #socials {
-    padding: 20px 0;
-}
-
-#address {
-    display: none;
-}
-
-/* Contact us responsive design */
-
-#contact-container {
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.left-side-contact {
-
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-#contact-h2 {
-    padding-bottom: 10px;
-    margin-top: 10px;
-}
-
-.right-side-contact {
-
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-
-}
-
-/* Reasons to love Cheeky Monkeys */
-
-#flex-parent-ab {
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.ab-img {
-    width: 120%;
-}
-
-@media only screen and (max-width: 600px) {
-
-/* Header mobile optimisation */
-
-header {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   
-}
-
-#menu {
-    padding: 0;
-}
-
-nav {
-    margin: 0 auto;
-    font-size: 0.9rem;
-}
-
-#logo {
-    height: 60px;
-    padding-bottom: 2px;
-}
-
-#logo, #menu {
-
-    line-height: 35px;
-
-}
-
-header a {
-    margin: 0 auto;
-}
-
-/* Footer mobile optimisation */
-
-#address, #footer-nav {
-    display: none;
-}
-
-#socials {
-
-    padding: 10px 0;
-}
-
-/* Hero image cover text */
-
-#hero {
-    display: none;
-}
-
-#cover-text {
-   width: 100%;
-   padding: 0;
-   transform: none;
-   left: auto;
-   top: auto;
-   height: 150px;
-}
-
-#cover-text h2 {
-    padding-top: 10px;
-}
-
-#about-us {
-    margin-top: 180px;
-}
-
-.flex-child-ab {
-    justify-content: center;
-    margin: 0;
-    width: 80%;
-}
-
-/* Reasons to love Cheeky Monkeys */
-
-.flex-child-ab {
-    width: auto;
-    align-items: center;
-    padding: 20px;
-}
-
-.ab-img {
-    width: 80%;
-}
-
-/* Contact Us */
-
-#contact-container {
-    width: 90%;
-    max-width: 550px;
-}
-
-.left-side-contact {
-    width: 100%;
-    max-width: 600px;
-}
-
-.right-side-contact {
-    width: 100%;
-    max-width: 600px;
-    align-self: center;
-    justify-content: center;
-}
-
-.contact-form {
-    width: 90%;
-    max-width: 500px;
-}
-
-.text-field {
-    width: 90%;
-    max-width: 500px;
-}
-
-}
-
-@media only screen and (max-width: 638px) {
-
-.flex-child-cu {
-    width: 80%;
-    max-width: 600px;
-}
-
-}
-
-@media only screen and (max-width: 445px) {
-
-#cover-text {
-    height: 210px;
-}
-
-#about-us {
-    margin-top: 240px;
-}
-
-#gallery-section img{
-    width: 80%;
-}
-
-}
-
-@media only screen and (max-width: 320px) {
-
-    #contact-container {
-        width: 100%;
-        max-width: 320px;
+ @media only screen and (max-width: 1275px) {
+    /* Footer responsive design */
+     #footer-nav, #socials {
+         padding: 20px 0;
     }
-
-    .contact-form {
-        width: 90%;
-        max-width: 280px;
+     #address {
+         display: none;
     }
-
-    .text-field {
-        width: 90%;
-        max-width: 280px;
+    /* Contact us responsive design */
+     #contact-container {
+         flex-direction: column;
+         display: flex;
+         flex-wrap: wrap;
     }
-}
+     .left-side-contact {
+         padding: 0;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+    }
+     #contact-h2 {
+         padding-bottom: 10px;
+         margin-top: 10px;
+    }
+     .right-side-contact {
+         text-align: center;
+         display: flex;
+         flex-wrap: wrap;
+         margin-bottom: 50px;
+    }
+    /* Reasons to love Cheeky Monkeys */
+     #flex-parent-ab {
+         flex-direction: column;
+         flex-wrap: wrap;
+    }
+     .ab-img {
+         width: 120%;
+    }
+     @media only screen and (max-width: 600px) {
+        /* Header mobile optimisation */
+         header {
+             display: flex;
+             flex-wrap: wrap;
+             flex-direction: column;
+        }
+         #menu {
+             padding: 0;
+        }
+         nav {
+             margin: 0 auto;
+             font-size: 0.9rem;
+        }
+         #logo {
+             height: 60px;
+             padding-bottom: 2px;
+        }
+         #logo, #menu {
+             line-height: 35px;
+        }
+         header a {
+             margin: 0 auto;
+        }
+        /* Footer mobile optimisation */
+         #address, #footer-nav {
+             display: none;
+        }
+         #socials {
+             padding: 10px 0;
+        }
+        /* Hero image cover text */
+         #hero {
+             display: none;
+        }
+         #cover-text {
+             width: 100%;
+             padding: 0;
+             transform: none;
+             left: auto;
+             top: auto;
+             height: 150px;
+        }
+         #cover-text h2 {
+             padding-top: 10px;
+        }
+         #about-us {
+             margin-top: 180px;
+        }
+         .flex-child-ab {
+             justify-content: center;
+             margin: 0;
+             width: 80%;
+        }
+        /* Reasons to love Cheeky Monkeys */
+         .flex-child-ab {
+             width: auto;
+             align-items: center;
+             padding: 20px;
+        }
+         .ab-img {
+             width: 80%;
+        }
+        /* Contact Us */
+         #contact-container {
+             width: 90%;
+             max-width: 550px;
+        }
+         .left-side-contact {
+             width: 100%;
+             max-width: 600px;
+        }
+         .right-side-contact {
+             width: 100%;
+             max-width: 600px;
+             align-self: center;
+             justify-content: center;
+        }
+         .contact-form {
+             width: 90%;
+             max-width: 500px;
+        }
+         .text-field {
+             width: 90%;
+             max-width: 500px;
+        }
+    }
+     @media only screen and (max-width: 638px) {
+         .flex-child-cu {
+             width: 80%;
+             max-width: 600px;
+        }
+    }
+     @media only screen and (max-width: 445px) {
+         #cover-text {
+             height: 210px;
+        }
+         #about-us {
+             margin-top: 240px;
+        }
+         #gallery-section img{
+             width: 80%;
+        }
+    }
+     @media only screen and (max-width: 320px) {
+         #contact-container {
+             width: 100%;
+             max-width: 320px;
+        }
+         .contact-form {
+             width: 90%;
+             max-width: 280px;
+        }
+         .text-field {
+             width: 90%;
+             max-width: 280px;
+        }
+    }
+    
