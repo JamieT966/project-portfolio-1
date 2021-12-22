@@ -471,6 +471,12 @@ footer {
     box-shadow: 1px 1px;
 }
 
+/* 404 Page */
+
+#page-not-found {
+    padding: 200px;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1275px) {
