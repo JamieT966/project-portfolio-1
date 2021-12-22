@@ -106,7 +106,7 @@
  .ab-img {
      height: 50%;
      border-radius: 50%;
-     animation: ab-animation 1s;
+     animation: ab-animation 5s;
      margin-bottom: 10px;
 }
  @keyframes ab-animation {
