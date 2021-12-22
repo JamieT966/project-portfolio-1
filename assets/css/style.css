@@ -627,6 +627,13 @@ header a {
     width: 80%;
 }
 
+/* Contact Us */
+
+#contact-container {
+    width: 90%;
+    max-width: 550px;
+}
+
 .left-side-contact {
     width: 100%;
     max-width: 600px;
@@ -677,6 +684,11 @@ header a {
 }
 
 @media only screen and (max-width: 320px) {
+
+    #contact-container {
+        width: 100%;
+        max-width: 320px;
+    }
 
     .contact-form {
         width: 90%;
