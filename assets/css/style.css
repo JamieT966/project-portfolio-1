@@ -483,6 +483,23 @@ footer {
     height: 100%;
 }
 
+#confused-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#confused {
+    margin: 100px auto;
+}
+
+#return-home {
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--text_color);
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1275px) {
@@ -538,19 +555,6 @@ footer {
 
 .ab-img {
     width: 120%;
-}
-
-/* 404 Page */
-
-#confused {
-    margin: 100px auto;
-}
-
-#return-home {
-    text-align: center;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: var(--text_color);
 }
 
 @media only screen and (max-width: 600px) {
