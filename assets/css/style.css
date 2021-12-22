@@ -407,6 +407,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .radio-box {
@@ -626,7 +627,8 @@ header a {
 }
 
 .right-side-contact {
-    max-width: fit-content;
+    width: 100%;
+    max-width: 550px;
     align-self: center;
     justify-content: center;
 }
@@ -636,7 +638,8 @@ header a {
 }
 
 .text-field {
-    max-width: fit-content;
+    width: 100%;
+    max-width: 500px;
 }
 
 }
