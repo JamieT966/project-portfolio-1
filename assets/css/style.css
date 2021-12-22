@@ -157,8 +157,18 @@ header {
 
     height: 50%;
     border-radius: 50%;
+    animation: ab-animation 1s;
     margin-bottom: 10px;
 
+}
+
+@keyframes ab-animation {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .ab-desc h3 {
