@@ -628,22 +628,24 @@ header a {
 }
 
 .left-side-contact {
-    max-width: fit-content;
+    width: 100%;
+    max-width: 600px;
 }
 
 .right-side-contact {
     width: 100%;
-    max-width: 550px;
+    max-width: 600px;
     align-self: center;
     justify-content: center;
 }
 
 .contact-form {
-    max-width: fit-content;
+    width: 90%;
+    max-width: 500px;
 }
 
 .text-field {
-    width: 100%;
+    width: 90%;
     max-width: 500px;
 }
 
@@ -672,4 +674,17 @@ header a {
     width: 80%;
 }
 
+}
+
+@media only screen and (max-width: 320px) {
+
+    .contact-form {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    .text-field {
+        width: 90%;
+        max-width: 280px;
+    }
 }
