@@ -16,7 +16,9 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 * To easily know the location of Cheeky Monkeys Playschool.
 * To be able to contact Cheeky Monkeys Playschool via phone, email or contact form.
 
+
 ## Features
+
 
 ### Navigation Bar Header
 
@@ -78,4 +80,41 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 
 ![Cheeky Monkeys Contact Us Page](media/contact.PNG)
 
-## Features Left to Implement
+### Features Left to Implement
+
+* In the future, I would like to add JavaScript that would allow the animation on the "What We Love About Cheeky Monkeys" images to start when they are scrolled into view.
+
+* Cookies pop up - A pop up banner at the bottom of the webpage to allow cookies, cookie settings or reject cookies. 
+
+* A CAPTCHA function on the contact form to prevent spam from bots.
+
+* A blog page so the business could post articles relevant to their industry, this would also help boost SEO if used correctly.
+
+
+## Testing
+
+
+### Validator Testing
+
+* [W3C Markup Validation](https://validator.w3.org/)
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator to check the validity of my code.
+
+### Client Story Testing
+
+* The most common path through the website is for the user to scroll down the main page, to prevent them having to scroll back up to the top of the page to navigate, I have added navigation links to the footer of the website.
+
+### Manual Testing
+
+* I have tested all links and all internal and external links are fully working. Any external links have a ```target="_blank"```, ensuring they open in a new tab.
+
+* The contact form has every field set to required, the form will not allow you to submit unless every field has content and one of the radio buttons has been selected. The email address field will not accept an invalid email format.
+
+* The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and across all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
+
+
+## User Experience
+
+
+### Strategy
