@@ -10,7 +10,7 @@
      border: none;
 }
  html {
-     min-height: 1rem;
+     min-height: 100%;
      position: relative;
      background-color: var(--off_white);
 }
