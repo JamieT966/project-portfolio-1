@@ -2,6 +2,8 @@
 
 ![Cheeky Monkeys Logo](media/Cheeky_Logo-1.png)
 
+[Cheeky Monkeys Playschool Live Site](https://jamiet966.github.io/project-portfolio-1/)
+
 Cheeky Monkeys Playschool needed a website with their current one having been created over 10 years ago and has an extremely outdated look and feel. The new, updated website features three images showcasing the greatest benefits that Cheeky Monkeys have to offer. Six key teachings the children will learn while attending, a full gallery that features the children at play, the owner's contact details and a contact form.
 
 ![Am I Responsive Image of Cheeky Monkeys Site](media/responsive.PNG)
@@ -151,6 +153,11 @@ For colours I color picked the orange in the Cheeky Monkeys logo and used the Ad
 1. HTML
 2. CSS
 3. JavaScript (For fontawesome icons)
+4. Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
+5. GitHub - Used to host repository
+6. GIT - for version control of the project.
+7. [FreeFormatter.com](https://www.freeformatter.com/html-formatter.html) - Used to beautify my HTML.
+8. [Dan's Tools](https://www.cleancss.com/css-beautify/)
 
 ## **Deployment**
 
