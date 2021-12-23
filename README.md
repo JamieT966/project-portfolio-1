@@ -110,6 +110,12 @@ I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator 
 
 * The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and across all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
 
+## **Bugs**
+
+* I found one minor bug when running the W3C Markup Validation. I have ignored this warning as this section does not require a heading.
+
+![Map Section Bug](media/map-warning.PNG)
+
 ## **User Experience**
 
 ### Strategy
@@ -159,3 +165,33 @@ The website is hosted by GitHub Pages and the live page can be found here: [Chee
 5. Under Source, change Branch to main and the files to /root and click save.
 6. Wait a few minutes and you're repository will be live on Github Pages.
 ![Your Repository was Published](media/published.PNG)
+
+As this website is hosted by GitHub pages it is directly deployed from the repository's master branch. This means that the deployed site will automatically update from any commits from the master branch of my repository.
+
+**The Steps I Took To Push Changes to Live website:**
+
+1. When have completed a section of code, in the terminal window: `git add .` or `git add index.html "or other file"`.
+2. `git commit -m "Your commit message here`.
+3. `git push`.
+
+To run a local copy, you can clone into any editor by pasting this: `git clone https://github.com/JamieT966/project-portfolio-1.git` into your editor.
+
+## **Credits**
+
+### Content
+
+* All content came from the Cheeky Monkeys Playschool owner, Rachel Tarpey. As well as the existing Cheeky Monkeys website
+
+### Media
+
+* All the stock imagery came from [Pexels](https://www.pexels.com/). The hero image and all gallery images.
+
+* The three images in the What we love about Cheeky Monkeys! section were designed by Lauren Tarpey.
+
+### Acknowledgments
+
+* First and foremost my mentor Brian Macharia, who has been an exceptional teacher to me, going above and beyond.
+
+* [The Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), I would not have been able to do complete this project without it. 
+
+* I also found the YouTube video, created by Traversy Media particularly useful. [Flexbox CSS In 20 Minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=209s&ab_channel=TraversyMedia)
