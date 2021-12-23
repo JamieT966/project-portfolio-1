@@ -515,6 +515,14 @@
              width: 80%;
              max-width: 280px;
         }
+        .right-side-contact {
+            width: 100%;
+            max-width: 320px;
+        }
+        .left-side-contact {
+            width: 100%;
+            max-width: 320px;
+        }
          .text-field {
              width: 90%;
              max-width: 280px;
