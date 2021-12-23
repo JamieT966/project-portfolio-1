@@ -164,6 +164,7 @@ The website is hosted by GitHub Pages and the live page can be found here: [Chee
 4. On left navigation menu, find and click Pages.
 5. Under Source, change Branch to main and the files to /root and click save.
 6. Wait a few minutes and you're repository will be live on Github Pages.
+
 ![Your Repository was Published](media/published.PNG)
 
 As this website is hosted by GitHub pages it is directly deployed from the repository's master branch. This means that the deployed site will automatically update from any commits from the master branch of my repository.
