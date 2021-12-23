@@ -297,6 +297,9 @@
      justify-content: flex-end;
      padding-left: 20px;
 }
+ .radio-field, #button-four, #button-three, #button-two {
+    line-height: 12px;
+}
  .text-field {
      width: 480px;
      margin: 10px auto;
