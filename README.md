@@ -104,11 +104,17 @@ I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator 
 
 * The most common path through the website is for the user to scroll down the main page, to prevent them having to scroll back up to the top of the page to navigate, I have added navigation links to the footer of the website.
 
+* The map section, the address on the contact page and the address can be found at the bottom of each page in the footer.
+
+* The contact page has the address, phone number and email address on the left side. With a contact form on the right side to leave a message.
+
 ### Manual Testing
 
 * I have tested all links and all internal and external links are fully working. Any external links have a ```target="_blank"```, ensuring they open in a new tab.
 
-* The contact form has every field set to required, the form will not allow you to submit unless every field has content and one of the radio buttons has been selected. The email address field will not accept an invalid email format.
+* The contact form has every field set to required, the form will not allow you to submit unless every field has content and one of the radio buttons has been selected. The email address field will not accept an invalid email format. When you press submit, you are taken to this page showing that all data has been captured correctly.
+
+![Successful Table Data Capture](media/table.PNG)
 
 * The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
 
