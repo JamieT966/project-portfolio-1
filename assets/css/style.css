@@ -191,6 +191,9 @@
      letter-spacing: 2px;
      line-height: 25px;
 }
+#footer-nav a:hover {
+    border-bottom: 1px solid var(--cm_orange);
+}
  #copyright {
      text-align: center;
      font-size: 0.8rem;

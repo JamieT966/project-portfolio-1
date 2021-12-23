@@ -110,7 +110,7 @@ I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator 
 
 ### Manual Testing
 
-* I have tested all links and all internal and external links are fully working. Any external links have a ```target="_blank"```, ensuring they open in a new tab.
+* I have tested all links and all internal and external links are fully working. I have also tested when clicking the site logo and that returns the user to the home page. Any external links have a ```target="_blank"```, ensuring they open in a new tab.
 
 * The contact form has every field set to required, the form will not allow you to submit unless every field has content and one of the radio buttons has been selected. The email address field will not accept an invalid email format. When you press submit, you are taken to this page showing that all data has been captured correctly.
 
