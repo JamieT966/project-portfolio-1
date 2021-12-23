@@ -15,7 +15,7 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 * Most importantly, show the contact details for the playschool and a contact form for the owner to contact them.
 
 **The customer goals of this website are:**
-* Clear, easy and intuitive to use website.
+* Clear, easy and intuitive to use the website.
 * To easily know the location of Cheeky Monkeys Playschool.
 * To be able to contact Cheeky Monkeys Playschool via phone, email or contact form.
 
@@ -23,7 +23,7 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 
 ### Navigation Bar Header
 
-* The header/ navigation bar features on all three pages of the website. This features the logo, home page, gallery and contact us to allow for easy navigation. The logo takes you back the user back to the home page.
+* The header/ navigation bar features on all three pages of the website. This features the logo, home page, gallery and contacts us to allow for easy navigation. The logo takes you back the user back to the home page.
 
 * This allows users to navigate to any page, at any time, on any device.
 
@@ -69,15 +69,15 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 
 * The gallery page allows the business to upload pictures of children doing activities and learning. This allows for the business to show social proof.
 
-* For the parents/ customers it allows them to see children playing and learning or viewing their own children.
+* For the parents/ customers, it allows them to see children playing and learning or viewing their children.
 
 ![Cheeky Monkeys Gallery Page](media/gallery.PNG)
 
 ### Contact Us Page
 
-* The left hand side displays the address, email address and phone number of Cheeky Monkeys Playschool.
+* The left-hand side displays the address, email address and phone number of Cheeky Monkeys Playschool.
 
-* The right hand side is a contact form that allows the user to leave their details and the owner of Cheeky Monkeys will contact them.
+* The right-hand side is a contact form that allows the user to leave their details and the owner of Cheeky Monkeys will contact them.
 
 ![Cheeky Monkeys Contact Us Page](media/contact.PNG)
 
@@ -85,7 +85,7 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 
 * In the future, I would like to add JavaScript that would allow the animation on the "What We Love About Cheeky Monkeys" images to start when they are scrolled into view.
 
-* Cookies pop up - A pop up banner at the bottom of the webpage to allow cookies, cookie settings or reject cookies. 
+* Cookies pop up - A pop-up banner at the bottom of the webpage to allow cookies, cookie settings or reject cookies. 
 
 * A CAPTCHA function on the contact form to prevent spam from bots.
 
@@ -110,7 +110,7 @@ I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator 
 
 * The contact form has every field set to required, the form will not allow you to submit unless every field has content and one of the radio buttons has been selected. The email address field will not accept an invalid email format.
 
-* The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and across all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
+* The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
 
 ## **Bugs**
 
@@ -126,11 +126,11 @@ The client's goal was to have a new and up to date B2C website that was simple a
 
 ### Scope
 
-I discussed with the client and we decided the scope of this project together. I gave an overview of what was on the table. For example, the home page, gallery and contact page were on the table. A blog page was disussed but was left out of the scope, this can be added at a later date.
+I discussed with the client and we decided the scope of this project together. I gave an overview of what was on the table. For example, the home page, gallery and contact page were on the table. A blog page was discussed but was left out of the scope, this can be added at a later date.
 
 ### Structure
 
-For the main structure I implemented a responsive header and footer with navigation elements. This allows the user to navigate to the home, gallery and contact page, whether they are at the top or the bottom of the website. 
+For the main structure, I implemented a responsive header and footer with navigation elements. This allows the user to navigate to the home, gallery and contact page, whether they are at the top or the bottom of the website. 
 On the Cheeky Monkeys contact form the submit button is orange with a white border but those colours invert when hovered over to demonstrate good interactive design.
 A 404 page was created that tells the user something went wrong and then provides a link back to the home page.
 
@@ -142,7 +142,7 @@ I created a wireframe using Balsamiq for the home page. I firstly, drew by hand 
 
 ### Surface
 
-For colours I color picked the orange in the Cheeky Monkeys logo and used the Adobe color wheel to select a pallete but I could not find anything that looked aesthetically pleasing so I instead opted for a three colour pallete.
+For colours, I colour picked the orange in the Cheeky Monkeys logo and used the Adobe colour wheel to select a palette but I could not find anything that looked aesthetically pleasing so I instead opted for a three colour palette.
 
 ```--off_white: #f8f8f8; --cm_orange: #B5772F; --text_color: #3a3a3a;```
 
@@ -166,11 +166,11 @@ The website is hosted by GitHub Pages and the live page can be found here: [Chee
 **The Steps I Took To Deploy on GitHub Pages:**
 
 1. Went to github.com
-2. Under Repositories click on desired project.
+2. Under Repositories click on the desired project.
 3. Click on Settings just over the green Gitpod button.
-4. On left navigation menu, find and click Pages.
+4. On the left navigation menu, find and click Pages.
 5. Under Source, change Branch to main and the files to /root and click save.
-6. Wait a few minutes and you're repository will be live on Github Pages.
+6. Wait a few minutes and your repository will be live on Github Pages.
 
 ![Your Repository was Published](media/published.PNG)
 
@@ -194,11 +194,11 @@ To run a local copy, you can clone into any editor by pasting this: `git clone h
 
 * All the stock imagery came from [Pexels](https://www.pexels.com/). The hero image and all gallery images.
 
-* The three images in the What we love about Cheeky Monkeys! section were designed by Lauren Tarpey.
+* The three images in the What we love about Cheeky Monkeys! section was designed by Lauren Tarpey.
 
 ### Acknowledgments
 
-* First and foremost my mentor Brian Macharia, who has been an exceptional teacher to me, going above and beyond.
+* First and foremost my mentor Brian Macharia, has been an exceptional teacher to me, going above and beyond.
 
 * [The Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), I would not have been able to do complete this project without it. 
 
