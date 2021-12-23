@@ -1,4 +1,5 @@
 # Cheeky Monkeys Playschool 
+
 ![Cheeky Monkeys Logo](media/Cheeky_Logo-1.png)
 
 Cheeky Monkeys Playschool needed a website with their current one having been created over 10 years ago and has an extremely outdated look and feel. The new, updated website features three images showcasing the greatest benefits that Cheeky Monkeys have to offer. Six key teachings the children will learn while attending, a full gallery that features the children at play, the owner's contact details and a contact form.
@@ -16,9 +17,7 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 * To easily know the location of Cheeky Monkeys Playschool.
 * To be able to contact Cheeky Monkeys Playschool via phone, email or contact form.
 
-
-## Features
-
+## **Features**
 
 ### Navigation Bar Header
 
@@ -90,9 +89,7 @@ Cheeky Monkeys Playschool needed a website with their current one having been cr
 
 * A blog page so the business could post articles relevant to their industry, this would also help boost SEO if used correctly.
 
-
-## Testing
-
+## **Testing**
 
 ### Validator Testing
 
@@ -113,8 +110,52 @@ I validated my HTML and CSS with the W3C Markup Validator and W3C CSS Validator 
 
 * The website has been tested across all major browsers (Chrome, Firefox, Edge, Safari, etc) and across all emulated mobile devices using Google Chrome Developer Tools. While testing I realised that my website was not fully responsive on very small screens, such as an iPhone 5. I had to add a width and max-width to resolve this.
 
-
-## User Experience
-
+## **User Experience**
 
 ### Strategy
+
+The client's goal was to have a new and up to date B2C website that was simple and intuitive to use. The website should demonstrate the key benefits and learnings to be gained by enrolling their child in Cheeky Monkeys Playschool. It should also have the address, a map and contact details listed so the customer can easily find them. A gallery was also requested to demonstrate social proof.
+
+### Scope
+
+I discussed with the client and we decided the scope of this project together. I gave an overview of what was on the table. For example, the home page, gallery and contact page were on the table. A blog page was disussed but was left out of the scope, this can be added at a later date.
+
+### Structure
+
+For the main structure I implemented a responsive header and footer with navigation elements. This allows the user to navigate to the home, gallery and contact page, whether they are at the top or the bottom of the website. 
+On the Cheeky Monkeys contact form the submit button is orange with a white border but those colours invert when hovered over to demonstrate good interactive design.
+A 404 page was created that tells the user something went wrong and then provides a link back to the home page.
+
+### Skeleton
+
+I created a wireframe using Balsamiq for the home page. I firstly, drew by hand roughly how I wanted Cheeky Monkey's home page to look.
+
+![Home Page Wireframe](media/wireframe.png)
+
+### Surface
+
+For colours I color picked the orange in the Cheeky Monkeys logo and used the Adobe color wheel to select a pallete but I could not find anything that looked aesthetically pleasing so I instead opted for a three colour pallete.
+
+```--off_white: #f8f8f8; --cm_orange: #B5772F; --text_color: #3a3a3a;```
+
+![Colour Pallete Used For Website](media/colours.png)
+
+## **Technologies**
+
+1. HTML
+2. CSS
+3. JavaScript (For fontawesome icons)
+
+## **Deployment**
+
+The website is hosted by GitHub Pages and the live page can be found here: [Cheeky Monkeys Playschool](https://jamiet966.github.io/project-portfolio-1/)
+
+**The Steps I Took To Deploy on GitHub Pages:**
+
+1. Went to github.com
+2. Under Repositories click on desired project.
+3. Click on Settings just over the green Gitpod button.
+4. On left navigation menu, find and click Pages.
+5. Under Source, change Branch to main and the files to /root and click save.
+6. Wait a few minutes and you're repository will be live on Github Pages.
+![Your Repository was Published](media/published.PNG)
